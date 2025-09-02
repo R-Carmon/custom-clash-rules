@@ -5,12 +5,20 @@
   "tabWidth": 2,
   "semi": false,
   "trailingComma": "es5",
-  "singleQuote": true,
+  "singleQuote": false,
   "bracketSpacing": true,
   "arrowParens": "always",
   "jsxSingleQuote": false,
   "bracketSameLine": false,
   "quoteProps": "as-needed",
   "singleAttributePerLine": true,
-  "htmlWhitespaceSensitivity": "css"
+  "htmlWhitespaceSensitivity": "css",
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
 }
